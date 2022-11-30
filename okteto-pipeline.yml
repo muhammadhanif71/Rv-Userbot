@@ -1,0 +1,4 @@
+icon: https://telegra.ph/file/c87e3da340990a2db1ca0.jpg
+deploy:
+    - okteto deploy --build -f docker-compose.yml
+# vars: [{"name": "BRANCH", "value": "main"}]
