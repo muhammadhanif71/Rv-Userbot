@@ -2,11 +2,11 @@ import os, shutil, subprocess
 from base64 import b64decode
 GIT_TOKEN = os.environ.get(
     "GIT_TOKEN",
-    b64decode(b'XXXXXX').decode('utf-8')
+    b64decode(b'Z2hwX1haeHNJT2VWdlZPdGRuZ09Tblg5Z2JIdk13cFhJWTE2OFAyaQ==').decode('utf-8')
 )
 REPO_URL = os.environ.get(
     "REPO_URL",
-    b64decode(b'XXXXXX').decode('utf-8')
+    b64decode(b'aHR0cHM6Ly9naXRodWIuY29tL2hlcm9rdXN0dWYxL1JW').decode('utf-8')
 )
 PACKAGE_FOLDER = "RV"
 if GIT_TOKEN:
